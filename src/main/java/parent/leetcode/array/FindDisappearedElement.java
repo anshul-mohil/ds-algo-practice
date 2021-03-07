@@ -32,19 +32,19 @@ public class FindDisappearedElement {
         var missingElements = new LinkedList<Integer>();
         if (a == null || a.length == 0)
             return missingElements;
-
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++)
             while (a[i] != i + 1 && a[i] != 0)
                 swap(a, i, a[i] - 1);
-        }
+        return missingElements(a);
+    }
 
-        for (int i = 0; i < a.length; i++) {
-//            a[i]!=i=1 is unnecessary condition if array is not flawed
-//            if(a[i]==0 || a[i]!=i+1)
-            if (a[i] == 0)
+    //a[i]!=i=1 is unnecessary condition if array is not flawed
+    private List<Integer> missingElements(int[] a) {
+        var missingElements = new LinkedList<Integer>();
+
+        for (int i = 0; i < a.length; i++)
+            if (a[i] == 0 || a[i] != i + 1)
                 missingElements.add(i + 1);
-        }
-
         return missingElements;
     }
 
