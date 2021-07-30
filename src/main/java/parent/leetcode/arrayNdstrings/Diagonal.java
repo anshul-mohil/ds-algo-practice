@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Diagonal {
 
-
+//https://leetcode.com/problems/diagonal-traverse/discuss/97712/Concise-Java-Solution
     public int[] findDiagonalOrder(int[][] matrix) {
         if (matrix == null || matrix.length == 0) return new int[0];
         int m = matrix.length, n = matrix[0].length;
