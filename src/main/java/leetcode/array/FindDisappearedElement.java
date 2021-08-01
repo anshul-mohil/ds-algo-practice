@@ -1,4 +1,4 @@
-package parent.leetcode.array;
+package leetcode.array;
 
 import java.util.LinkedList;
 import java.util.List;

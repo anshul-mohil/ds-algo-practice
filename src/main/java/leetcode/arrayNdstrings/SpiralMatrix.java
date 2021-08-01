@@ -1,4 +1,4 @@
-package parent.leetcode.arrayNdstrings;
+package leetcode.arrayNdstrings;
 
 import java.util.ArrayList;
 import java.util.List;

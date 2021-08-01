@@ -1,4 +1,4 @@
-package parent.leetcode.arrayNdstrings;
+package leetcode.arrayNdstrings;
 
 public class LargestNumber {
     public static void main(String[] args) {

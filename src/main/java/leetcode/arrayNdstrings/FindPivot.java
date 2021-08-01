@@ -1,4 +1,4 @@
-package parent.leetcode.arrayNdstrings;
+package leetcode.arrayNdstrings;
 
 public class FindPivot{
     public int pivotIndex(int[] a) {
